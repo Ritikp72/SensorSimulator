@@ -139,6 +139,4 @@ Edit `config.json` to customize:
 | CO2 | ppm | 400 to 2000 | Carbon dioxide level |
 | Noise | dB | 20 to 120 | Sound pressure level |
 
-## License
 
-This project is open source and available under the MIT License.
