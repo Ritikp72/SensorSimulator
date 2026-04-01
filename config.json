@@ -1,0 +1,58 @@
+{
+  "appSettings": {
+    "appName": "Sensor Simulator Dashboard",
+    "updateIntervalSeconds": 3,
+    "logToFile": true,
+    "logFilePath": "C:\\Users\\ritik\\Desktop\\Data.csv",
+    "historySize": 10
+  },
+  "sensors": {
+    "temperature": {
+      "enabled": true,
+      "minValue": 20,
+      "maxValue": 80,
+      "warningThreshold": 10,
+      "dangerThreshold": 70
+    },
+    "humidity": {
+      "enabled": true,
+      "minValue": 30,
+      "maxValue": 90,
+      "warningThresholdLow": 30,
+      "warningThresholdHigh": 85
+    },
+    "pressure": {
+      "enabled": true,
+      "minValue": 950,
+      "maxValue": 1000,
+      "warningThreshold": 960
+    },
+    "light": {
+      "enabled": true,
+      "minValue": 50,
+      "maxValue": 800,
+      "warningThreshold": 100,
+      "dangerThreshold": 800
+    },
+    "co2": {
+      "enabled": true,
+      "minValue": 400,
+      "maxValue": 2000,
+      "warningThreshold": 1000,
+      "dangerThreshold": 2000
+    },
+    "noise": {
+      "enabled": true,
+      "minValue": 30,
+      "maxValue": 80,
+      "warningThreshold": 70,
+      "dangerThreshold": 85
+    }
+  },
+  "displaySettings": {
+    "showProgressBars": true,
+    "showStatistics": true,
+    "showAlerts": true,
+    "clearScreen": true
+  }
+}
